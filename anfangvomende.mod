@@ -1,5 +1,7 @@
-﻿name="Uprising"
-path="mod/uprising/"
+﻿name="Anfang vom Ende"
+path="mod/anfangvomende/"
+user_dir = "AnfangVomEnde"
+
 tags={
 	"Alternative History"
 	"Map"
