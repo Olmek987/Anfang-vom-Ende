@@ -10,7 +10,6 @@ tags={
 }
 replace_path ={ 
 "history/units"
-"common/countries"
 "common/national_focus" 
 }
 name="Anfang vom Ende"
