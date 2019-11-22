@@ -2,7 +2,6 @@
 path="mod/anfangvomende/"
 user_dir = "AnfangVomEnde"
 replace_path ={
-"history/countries"
 "history/units"
 "common/countries"
 "common/national_focus"
