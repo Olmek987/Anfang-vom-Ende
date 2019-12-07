@@ -1,0 +1,31 @@
+state={
+	id=790
+	name="STATE_790"
+	resources={
+		steel=7.000
+	}
+	provinces={
+		738 740 3735 6756 9703 11688 
+	}
+	history={
+		owner = SPR
+		add_core_of = SPR
+		add_claim_by = BAS
+		victory_points = {
+			740 3 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 2
+			740 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	manpower=1257503
+	state_category = city
+	buildings_max_level_factor=1.000
+}
