@@ -134,7 +134,8 @@ ideologies = {
 		
 		}
 		ai_neutral = yes
-		
+	}
+	
 	conservatism = {
 		
 		types = {
