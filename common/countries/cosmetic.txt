@@ -225,3 +225,4 @@ HOL_benelux_unified = {
 CAT_SPR = {
 	color = rgb { 230 215 140 }
 	coor_ui = rgb { 156 145 93 }
+}
