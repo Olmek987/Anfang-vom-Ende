@@ -77,11 +77,11 @@ set_convoys = 150
 set_stability = 0.5
 
 create_country_leader = {
-	name = ""
-	desc = ""
-	picture = ""
+	name = "Francesc Macià"
+	desc = "POLITICS_FRANCESC_MACIA"
+	picture = "Portrait_Catalonia_Francesc_Macia.dds"
 	expire = "1965.1.1"
-	ideology = 
+	ideology = social_democracy_subtype
 	traits = {
 		#
 	}
