@@ -1,0 +1,24 @@
+capital = 2
+
+oob = "RME_1936"
+
+set_research_slots = 2
+set_stability = 0.8
+set_war_support = 0.2
+
+set_politics = {
+	ruling_party = dem_authoritarianism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	dem_authoritarianism = 96
+	soc_dem = 4
+}
+
+create_country_leader = {
+	name = "Pope"
+	picture = " "
+	ideology = democratic_authoritarianism_subtype
+}

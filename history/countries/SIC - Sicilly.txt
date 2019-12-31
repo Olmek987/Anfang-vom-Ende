@@ -1,0 +1,25 @@
+capital = 2
+
+oob = "RGA_1936"
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = soc_dem
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	soc_dem = 80
+	radical_socialism = 13
+	liberalism = 7
+}
+
+create_country_leader = {
+	name = "Independent goverment of Sicilly with social support"
+	picture = " "
+	ideology = social_democracy_subtype
+}

@@ -478,6 +478,31 @@ CSA = {
 CAT = {
 	color = rgb { 240 137 151 }
 	color_ui = rgb { 214 159 166 }
+}
+VCE = {
+	color = rgb { 190 177 158 }
+	color_ui = rgb { 206 168 177 }
+}
+RME = {
+	color = rgb { 255 255 138 }
+	color_ui = rgb { 255 255 73 }
+}
+TUS = {
+	color = rgb { 108 255 88 }
+	color_ui = rgb { 88 178 114 }
+}
+RGA = {
+	color = rgb { 117 193 253 }
+	color_ui = rgb { 99 200 255 }
+}
+PTE = {
+	color = rgb { 119 85 0 }
+	color_ui = rgb { 165 115 20 }
+}
+SIC = {
+	color = rgb { 123 198 60 }
+	color_ui = rgb { 100 255 5 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

@@ -1,0 +1,25 @@
+capital = 2
+
+oob = "TUS_1936"
+
+set_research_slots = 3
+set_stability = 0.65
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = radical_socialism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	radical_socialism = 78
+	soc_dem = 20
+	national_marxism = 2
+}
+
+create_country_leader = {
+	name = "example leader"
+	picture = " "
+	ideology = radical_socialism_subtype
+}

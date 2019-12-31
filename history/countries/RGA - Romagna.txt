@@ -1,0 +1,27 @@
+capital = 2
+
+oob = "RGA_1936"
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.65
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 68
+	dem_authoritarianism = 15
+	conservatism = 8
+	soc_dem = 7
+	liberalism = 2
+}
+
+create_country_leader = {
+	name = "Independent goverment of Romagna"
+	picture = " "
+	ideology = authoritarianism_subtype
+}

@@ -1,0 +1,25 @@
+capital = 2
+
+oob = "RGA_1936"
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = totalistic_communalism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	totalistic_communalism = 15
+	dem_authoritarianism = 68
+	liberalism = 17
+}
+
+create_country_leader = {
+	name = "Independent goverment of Piedmonte"
+	picture = " "
+	ideology = democratic_authoritarianism_subtype
+}
