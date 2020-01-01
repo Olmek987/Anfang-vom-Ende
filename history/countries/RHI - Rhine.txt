@@ -1,0 +1,14 @@
+capital = 64
+
+oob = "RHI_1936"
+
+set_politics = {
+	ruling_party = soc_dem
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	soc_dem = 55
+	liberalism = 45
+}

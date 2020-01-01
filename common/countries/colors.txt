@@ -503,6 +503,38 @@ SIC = {
 	color = rgb { 123 198 60 }
 	color_ui = rgb { 100 255 5 }
 }
+BAD = {
+	color = rgb { 191 73 0 }
+	color_ui = rgb { 170 36 0 }
+}
+ALS = {
+	color = rgb { 190 97 172 }
+	color_ui = rgb { 226 174 172 }
+}
+BAV = {
+	color = rgb { 34 135 236 }
+	color_ui = rgb { 0 62 236 }
+}
+SWA = {
+	color = rgb { 141 31 47 }
+	color_ui = rgb { 101 45 34 }
+}
+HES = {
+	color = rgb { 0 147 0 }
+	color_ui = rgb { 0 97 0 }
+}
+RHI = {
+	color = rgb { 82 80 47 }
+	color_ui = rgb { 84 104 90 }
+}
+NSX = {
+	color = rgb { 4 120 116 }
+	color_ui = rgb { 55 101 88 }
+}
+SHL = {
+	color = rgb { 255 101 88 }
+	color_ui = rgb { 255 131 133 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

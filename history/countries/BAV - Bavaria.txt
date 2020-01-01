@@ -1,0 +1,16 @@
+capital = 64
+
+oob = "BAV_1936"
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 60
+	dem_authoritarianism = 20
+	imperialism = 11
+	liberalism = 9
+}
