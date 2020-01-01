@@ -1,6 +1,43 @@
 ﻿capital = 41
 
-puppet = CAT
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = CAT
+		autonomous_state = colony
+	}
+	else = {
+		puppet = CAT
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = POR
+		autonomous_state = colony
+	}
+	else = {
+		puppet = POR
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SAR
+		autonomous_state = colony
+	}
+	else = {
+		puppet = SAR
+	}
+}
 
 oob = "SPR_1936"
 if = {
