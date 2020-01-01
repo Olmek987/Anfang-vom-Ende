@@ -5,8 +5,9 @@ state=
 	manpower = 241621
 	state_category = small_island
 	history= {
-		owner = ENG
+		owner = SIC
 		add_core_of = MLT
+		add_core_of = SIC
 		victory_points = {
 			12003 5 
 		}
