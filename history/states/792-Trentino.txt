@@ -1,0 +1,28 @@
+
+state={
+	id=792
+	name="STATE_792"
+	resources={
+		aluminium=9.000
+	}
+	
+	history={
+		owner = VCE
+		victory_points = {
+			11598 1 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = VCE
+		add_claim_by = AUS
+
+	}
+	provinces={
+		6631 9598 11598 
+	}
+	manpower=235675
+	buildings_max_level_factor=1.000
+	state_category=town
+}
