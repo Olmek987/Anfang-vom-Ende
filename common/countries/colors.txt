@@ -543,6 +543,10 @@ LAP = {
 	color = rgb { 20 1 91 }
 	color_ui = rgb { 50 31 58 }
 }
+SAR = {
+	color = rgb { 123 198 60 }
+	color_ui = rgb { 100 255 5 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
