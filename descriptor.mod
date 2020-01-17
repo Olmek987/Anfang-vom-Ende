@@ -8,8 +8,4 @@ tags={
 	"Map"
 	"National Focuses"
 }
-replace_path ={ 
-"history/units"
-"common/national_focus" 
-}
 name="Anfang vom Ende"
