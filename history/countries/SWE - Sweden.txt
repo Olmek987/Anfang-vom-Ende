@@ -142,30 +142,28 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	neutrality = 14
-	communism = 8
-	fascism = 3
+	liberalism = 55
+	conservatism = 18
+	dem_authoritarianism = 27
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1936.9.20"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 85
-		neutrality = 10
-		communism = 4
-		fascism = 1
+		liberalism = 55
+		conservatism = 18
+		dem_authoritarianism = 27
 	}
 }
 
@@ -174,49 +172,67 @@ set_stability = 0.9
 
 
 
-
 create_country_leader = {
-	name = "Per Albin Hansson"
-	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
+	name = "Sven Olov Knutsson Lindholm"
+	picture = "Portrait_Sweden_Sven_Lindholm.dds"
 	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
+	ideology = imperialism_subtype
 }
 
 create_country_leader = {
-	name = "Sven Olov Lindholm"
-	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Gustaf V of Sweden"
+	picture = "Portrait_Sweden_Gustav_V.dds"
 	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
+	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
-	name = "Sven Linderot"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	name = "Gustaf V of Sweden"
+	picture = "Portrait_Sweden_Gustav_V.dds"
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
-	name = "Axel Pehrsson-Bramstorp"
-	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Nils Edén"
+	picture = "Portrait_Sweden_Nils_Eden.dds"
 	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Nils Edén"
+	picture = "Portrait_Sweden_Nils_Eden.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Tage Fritjof Erlander"
+	picture = "Portrait_Sweden_Tage_Erlander.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Tage Fritjof Erlander"
+	picture = "Portrait_Sweden_Tage_Erlander.dds"
+	expire = "1965.1.1"
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Sven Harald Linderot"
+	picture = "Portrait_Sweden_Sven_Linderot.dds"
+	expire = "1965.1.1"
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Karl Kilbom"
+	picture = "Portrait_Sweden_Karl_Kilbom.dds"
+	expire = "1965.1.1"
+	ideology = national_marxism_subtype
 }
 
 create_corps_commander = {

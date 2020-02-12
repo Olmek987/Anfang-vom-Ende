@@ -112,71 +112,94 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = imperialism
 	last_election = "1933.7.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 1
-	neutrality = 79
+	imperialism = 79
+	authoritarianism = 0
+	dem_authoritarianism = 9
+	conservatism = 2
+	liberalism = 2
+	soc_dem = 2
+	radical_socialism = 2
+	totalistic_communalism = 2
+	national_marxism = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = imperialism
 		last_election = "1939.7.1"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 }
+
+create_country_leader = {
+	name = "Kurt Martti Wallenius"
+	picture = "Portrait_Finland_Kurt_Martti_Wallenius.dds"
+	expire = "1965.1.1"
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Carl Gustaf Emil Mannerheim"
+	picture = "Portrait_Finland_Carl_Gustaf_Mannerheim.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Carl Gustaf Emil Mannerheim"
+	picture = "Portrait_Finland_Carl_Gustaf_Mannerheim.dds"
+	expire = "1965.1.1"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Kaarlo Juho Ståhlberg"
+	picture = "Portrait_Finland_Kaarlo_Juho_Stahlberg.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
 create_country_leader = {
 	name = "Risto Heikki Ryti"
-	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
+	ideology = liberalism_subtype
 }
 
 create_country_leader = {
-	name = "Aimo Aaltonen"
-	desc = "POLITICS_AIMO_AALTONEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Ralf Johan Gustaf Törngren"
+	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
-	name = "Vilho Annala"
-	desc = "POLITICS_VILHO_ANNALA_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	name = "Ralf Johan Gustaf Törngren"
+	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
-	name = "Kyösti Kallio"
-	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
-	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	name = "Aimo Anshelm Aaltonen"
+	picture = "Portrait_Finland_Aimo_Aaltonen.dds"
 	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+	ideology = totalistic_communalism_subtype
 }
 
-
+create_country_leader = {
+	name = "Otto Wilhelm Kuusinen"
+	picture = "Portrait_Finland_Otto_Wilhelm_Wille_Kuusinen.dds"
+	expire = "1965.1.1"
+	ideology = national_marxism_subtype
+}
 
 add_ideas = {
 	sisu
