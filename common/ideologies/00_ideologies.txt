@@ -148,7 +148,7 @@ ideologies = {
 			"FACTION_NAME_CONSERVATISM_1"
 		}
 		
-		color = { 55 0 239 }
+		color = { 0 95 255 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -193,7 +193,7 @@ ideologies = {
 			"FACTION_NAME_LIBERALISM_1"
 		}
 		
-		color = { 220 236 0 }
+		color = { 255 255 0 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -238,7 +238,7 @@ ideologies = {
 			"FACTION_NAME_SOC_DEM_1"
 		}
 		
-		color = { 250 30 68 }
+		color = { 255 30 120 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no

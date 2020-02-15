@@ -1,4 +1,14 @@
 ﻿l_english:
+ imperialism:0 "Imperialism"
+ authoritarianism:0 "Authoritarianism"
+ dem_authoritarianism:0 "Democratic Authoritarianism"
+ conservatism:0 "Conservatism"
+ liberalism:0 "Liberalism"
+ soc_dem:0 "Social Democracy"
+ radical_socialism:0 "Radical Socialism"
+ totalistic_communalism:0 "Totalistic Communalism"
+ national_marxism:0 "National Marxism"
+ 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_communism_party:0 "KPD"
