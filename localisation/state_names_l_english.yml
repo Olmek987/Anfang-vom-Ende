@@ -159,7 +159,7 @@
  STATE_158:0 "Piedmont"
  STATE_159:0 "Lombardy"
  STATE_160:0 "Veneto"
- STATE_161:0 "Emilia Romagna"
+ STATE_161:0 "Romagna"
  STATE_162:0 "Tuscany"
  STATE_163:0 "Zara"
  STATE_164:0 "Dodecanese"
@@ -794,3 +794,5 @@
  STATE_793:0 "Nice"
  STATE_794:0 "Liguria"
  STATE_795:0 "Milan
+ STATE_796:0 "Emilia"
+ STATE_797:0 "Marche"

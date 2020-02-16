@@ -1,0 +1,22 @@
+state={
+	id=796
+	name="STATE_796"
+	manpower = 1233005
+	
+	state_category = city
+	
+	history={
+		owner = RGA
+		victory_points = {
+			9752 2
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+		add_core_of = RGA
+		}
+	}
+	provinces={
+		3773 3976 6790 9752 
+		}
+	}

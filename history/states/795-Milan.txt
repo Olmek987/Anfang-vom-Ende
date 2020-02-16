@@ -1,0 +1,30 @@
+state={
+	id=795
+	name="STATE_795"
+	manpower = 1544002
+	state_category = city
+
+	history={
+		owner = PTE
+		victory_points = {
+			3780 15 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 8
+
+		}
+		add_core_of = PTE
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		3780 607 776 9584
+	}
+}

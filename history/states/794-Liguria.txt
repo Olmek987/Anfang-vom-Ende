@@ -1,0 +1,22 @@
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		6788 3772 11891 
+	}
+	history={
+		victory_points = {
+			6788 10 
+		}
+		owner = PTE
+		add_core_of = PTE
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+	manpower=1401256
+	buildings_max_level_factor=1.000
+	state_category=city
+}

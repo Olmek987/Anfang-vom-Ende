@@ -2,7 +2,7 @@
 state={
 	id=161
 	name="STATE_161"
-	manpower = 3202401
+	manpower = 1750432
 	
 	state_category = large_city
 	
@@ -27,6 +27,6 @@ state={
 	}
 
 	provinces={
-		782 3773 3976 6606 6790 6793 6985 9752 9924 
+		782 6606 6793 6985 9924 
 	}
 }
