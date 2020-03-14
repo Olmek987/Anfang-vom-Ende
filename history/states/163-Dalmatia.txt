@@ -2,20 +2,30 @@ state=
 {
 	id=163
 	name="STATE_163"
-	manpower = 18000
+	manpower = 818000
 	
-	state_category = enclave
+	state_category = town
 	
 	history={
-		owner = ITA
+		owner = VCE
+		victory_points = {
+			3924 3
+		}
 		buildings = {
 			infrastructure = 5
+			dockyard = 1
+			industrial_complex = 1
+			arms_factory = 1
 			3943 = {
 				naval_base = 1
 			}
+			3924 = {
+				naval_base = 3
+			}
 		}
+		add_core_of = VCE
 	} 
 	provinces={	
-		3943 
+		3924 3974 3943 984 
 	}
 }

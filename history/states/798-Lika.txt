@@ -1,0 +1,23 @@
+state={
+	id=798
+	name="STATE_798"
+	manpower = 532101
+	
+	state_category = town
+	
+	history={
+		owner = CRO
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 7
+			dockyard = 1
+			industrial_complex = 1
+		}
+		add_core_of = CRO
+	}
+	provinces={
+		591 3601 11564 11901 6611
+		}
+	}
