@@ -322,72 +322,23 @@ create_country_leader = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = imperialism
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no
 }
-set_popularities = {	democratic = 97	fascism = 2
-	communism = 1
+set_popularities = {	imperialism = 60	authoritarianism = 10
+	dem_authoritarianism = 7
+	conservatism = 14
+	liberalism = 7
+	soc_dem = 2
 }
-
-
-create_faction = Allies
-add_to_faction = ENG
-#add_to_faction = FRA
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
-
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
-add_to_faction = MAL
-
-#give_guarantee = CZE
-
-# Order matters - here Chamberlain becomes starting leader
-
-create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
-	}
-}
-
-
-create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = liberalism
-	traits = {
-		conservative_grandee
-	}
-}
-
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		
-#	}
-#}
 
 create_country_leader = {
 	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = imperialism_subtype
 	traits = {
 		champion_of_peace_1
 		economic_reformer
@@ -395,26 +346,85 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Edward VIII"
+	picture = "Portrait_Britain_Edward_VIII.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	picture = "Portrait_Britain_George_V.dds"
+	expire = "1965.1.1"
+	ideology = democratic_authoritarianism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Stanley Baldwin"
+	picture = "Portrait_Britain_Stanley_Baldwin.dds"
+	expire = "1938.1.1"
+	ideology = conservatism_subtype
+	traits = {
+		conservative_grandee
+	}
+}
+
+create_country_leader = {
+	name = "Herbert Louis Samuel"
+	picture = "Portrait_Britain_Herbert_Louis_Samuel.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "James Ramsay MacDonald"
+	picture = "Portrait_Britain_Ramsay_MacDonald.dds"
+	expire = "1938.1.1"
+	ideology = social_democracy_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "John Warburton Beckett"
+	picture = "Portrait_Britain_John_Beckett.dds"
+	expire = "1965.1.1"
+	ideology = radical_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
 	name = "Harry Pollitt"
 	desc = "POLITICS_HARRY_POLLITT_DESC"
-	picture = "portrait_eng_harry_pollitt.dds"
+	picture = "Portrait_Britain_Harry_Pollitt.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = totalistic_communalism_subtype
 	traits = {
 		staunch_stalinist
 	}
 }
 
-#create_country_leader = {
-#	name = "Rajani Palme Dutt"
-#	desc = "POLITICS_PALME_DUTT_DESC"
-#	picture = "Portrait_Britain_Palme_Dutt.dds"
-#	expire = "1965.1.1"
-#	ideology = leninism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "Arnold Spencer Leese"
+	picture = "Portrait_Britain_Arnold_Leese.dds"
+	expire = "1965.1.1"
+	ideology = national_marxism_subtype
+	traits = {
+		
+	}
+}
 
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat
