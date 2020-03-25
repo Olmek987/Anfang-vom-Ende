@@ -335,7 +335,7 @@ set_popularities = {	imperialism = 60	authoritarianism = 10
 }
 
 create_country_leader = {
-	name = "Oswald Mosley"
+	name = "Oswald Ernald Mosley"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = imperialism_subtype
