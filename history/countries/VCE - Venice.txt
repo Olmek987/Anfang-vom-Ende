@@ -13,13 +13,66 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
+	imperialism = 0
+	authoritarianism = 0
+	dem_authoritarianism = 6
+	conservatism = 10
 	liberalism = 68
-	conservatism = 25
-	soc_dem = 7
+	soc_dem = 10
+	totalistic_communalism = 3
+	national_marxism = 3
 }
 
 create_country_leader = {
-	name = "Congress of Venice Liberals"
-	picture = " "
+	name = "Emilio De Bono"
+	picture = "Portrait_Venice_Emilio_De_Bono.dds"
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Emilio De Bono"
+	picture = "Portrait_Venice_Emilio_De_Bono.dds"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Emilio De Bono"
+	picture = "Portrait_Venice_Emilio_De_Bono.dds"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Alcide De Gasperi"
+	picture = "Portrait_Venice_Alcide_De_Gasperi.dds"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Enrico De Nicola"
+	picture = "Portrait_Venice_Enrico_De_Nicola.dds"
 	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Alcide De Gasperi"
+	picture = "Portrait_Venice_Alcide_De_Gasperi.dds"
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Ivanoe Bonomi"
+	picture = "Portrait_Venice_Ivanoe_Bonomi.dds"
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Ivanoe Bonomi"
+	picture = "Portrait_Venice_Ivanoe_Bonomi.dds"
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Giacomo Matteotti"
+	picture = "Portrait_Venice_Giacomo_Matteotti.dds"
+	ideology = national_marxism_subtype
 }
