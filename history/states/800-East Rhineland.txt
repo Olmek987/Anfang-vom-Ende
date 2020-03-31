@@ -1,0 +1,38 @@
+
+state={
+	id=800
+	name="STATE_800"
+	manpower = 4350151
+	resources={
+		steel=12 
+	}
+
+
+	state_category = metropolis
+	
+	history={
+		owner = RHI
+		add_core_of = RHI
+		victory_points = {
+			6469 10 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+
+		}
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 4
+				radar_station = 1
+			}
+		}
+	}
+	
+	provinces={
+		529 3512 6469 6570 9482 
+	}
+}

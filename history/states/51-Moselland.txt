@@ -2,47 +2,33 @@
 state={
 	id=51
 	name="STATE_51"
-	manpower = 6144743
+	manpower = 2655103
 	resources={
-		steel=30 # was: 54
+		steel=16 # was: 54
 	}
 
 
-	state_category = metropolis
+	state_category = city
 	
 	history={
 		owner = RHI
 		victory_points = {
-			6469 10 
-		}
-		victory_points = {
 			587 5 
 		}
-		#victory_points = {
-		#	3444 5
-		#}
-		#victory_points = {
-		#	3547 1
-		#}
+		victory_points = {
+			11435 1 
+		}
+
 		buildings = {
-			infrastructure = 8
-			arms_factory = 3
+			infrastructure = 7
 			industrial_complex = 2
-			air_base = 3
 
 		}
 		add_core_of = RHI
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 6
-				radar_station = 1
-			}
-		}
 	}
 	
 	provinces={
-		529 587 3444 3512 3547 6469 6570 9482 9522 
+		587 3444 3547 9522 11435 11470 11494 13222
 	}
-	
 }

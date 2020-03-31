@@ -1,0 +1,41 @@
+state={
+	id=801
+	name="STATE_801"
+
+	state_category = city
+	history={
+		owner = BAD
+		victory_points = {
+			3530 10
+		}
+		victory_points = {
+			6712 3
+		}
+		victory_points = {
+			11640 1
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = BAD
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 1
+				industrial_complex = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3530 3692 6542 6568 6712 11640 
+	}
+	manpower=1604321
+	buildings_max_level_factor=1.000
+}
