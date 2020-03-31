@@ -16,5 +16,64 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	authoritarianism = 100
+	authoritarianism = 75
+	conservatism = 10
+	liberalism = 5
+	soc_dem = 3
+	totalistic_communalism = 6
+	national_marxism = 1
+}
+
+create_country_leader = {
+	name = "Wiktor Emanuel III"
+	picture = " "
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Wiktor Emanuel III"
+	picture = " "
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Wiktor Emanuel III"
+	picture = " "
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Wiktor Emanuel III"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Ernesto Rossi"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Gaetano Salvemini"
+	picture = " "
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Ruggero Grieco"
+	picture = " "
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Ruggero Grieco"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Amadeo Bordiga"
+	picture = " "
+	ideology = national_marxism_subtype
 }

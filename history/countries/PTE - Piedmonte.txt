@@ -1,6 +1,6 @@
 capital = 2
 
-oob = "RGA_1936"
+oob = "PTE_1936"
 
 set_research_slots = 4
 set_stability = 0.5
@@ -13,13 +13,63 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	totalistic_communalism = 15
-	dem_authoritarianism = 68
-	liberalism = 17
+	dem_authoritarianism = 62
+	conservatism = 5
+	liberalism = 6
+	soc_dem = 2
+	totalistic_communalism = 25
+}
+
+create_country_leader = {
+	name = "Independent goverment of Piedmonte"
+	picture = " "
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Independent goverment of Piedmonte"
+	picture = " "
+	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Independent goverment of Piedmonte"
 	picture = " "
 	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Luigi Einaudi"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Ferruccio Parri"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Ferruccio Parri"
+	picture = " "
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Palmiro Togliatti"
+	picture = " "
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Luigi Longo"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Angelo Tasca"
+	picture = " "
+	ideology = national_marxism_subtype
 }

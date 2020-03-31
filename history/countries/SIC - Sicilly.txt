@@ -1,6 +1,6 @@
 capital = 2
 
-oob = "RGA_1936"
+oob = "SIC_1936"
 
 set_research_slots = 4
 set_stability = 0.5
@@ -13,13 +13,66 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	soc_dem = 80
-	radical_socialism = 13
+	imperialism = 10
+	authoritarianism = 2
+	dem_authoritarianism = 13
+	conservatism = 7
 	liberalism = 7
+	soc_dem = 57
+	radical_socialism = 4
+	
 }
 
 create_country_leader = {
-	name = "Independent goverment of Sicilly with social support"
+	name = "Cesare Mori"
+	picture = " "
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Ferdinand Pius"
+	picture = " "
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Ferdinand Pius"
+	picture = " "
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Franco Restivo"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Giuseppe Alessi"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Riccardo Lombardi"
 	picture = " "
 	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Riccardo Lombardi"
+	picture = " "
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Riccardo Lombardi"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Riccardo Lombardi"
+	picture = " "
+	ideology = national_marxism_subtype
 }

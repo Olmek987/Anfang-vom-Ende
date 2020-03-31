@@ -61,67 +61,84 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.6.17"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-create_country_leader = {
-	name = "Éamon de Valera"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	imperialism = 3
+	authoritarianism = 0
+	dem_authoritarianism = 2
+	conservatism = 84
+	liberalism = 5
+	soc_dem = 3
+	radical_socialism = 1
+	totalistic_communalism = 1
+	national_marxism = 1
 }
 
 create_country_leader = {
-	name = "Eoin O'Duffy"
-	desc = "POLITICS_EOIN_ODUFFY_DESC"
+	name = "Douglas Ross Hyde"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Joseph MacRory"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Joseph MacRory"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Éamon de Valera"
+	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "William Thomas Cosgrave"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "William Joseph Norton"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "James Larkin"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
-	name = "William Norton"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
+	name = "Arthur Patrick L. "Pat" Quinlan"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Maud Gonne MacBride"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+	ideology = national_marxism_subtype
 }
 
 create_corps_commander = {

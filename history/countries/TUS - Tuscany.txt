@@ -19,7 +19,55 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "example leader"
+	name = "Rodolfo Neghelli de Graziani"
+	picture = " "
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Rodolfo Neghelli de Graziani"
+	picture = " "
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Rodolfo Neghelli de Graziani"
+	picture = " "
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Giovanni Porzio"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Enrico De Nicola"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Randolfo Pacciardi"
+	picture = " "
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Gaetano Martino"
 	picture = " "
 	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Gaetano Martino"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Giuseppe Saragat"
+	picture = " "
+	ideology = national_marxism_subtype
 }

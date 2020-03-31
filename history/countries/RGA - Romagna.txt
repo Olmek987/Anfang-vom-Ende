@@ -13,15 +13,66 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarianism = 68
+	imperialism = 4
+	authoritarianism = 57
 	dem_authoritarianism = 15
 	conservatism = 8
-	soc_dem = 7
 	liberalism = 2
+	soc_dem = 7
+	radical_socialism = 5
+	national_marxism = 2
 }
 
 create_country_leader = {
-	name = "Independent goverment of Romagna"
+	name = "Pietro Badoglio"
+	picture = " "
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Umberto II"
 	picture = " "
 	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Umberto II"
+	picture = " "
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Mario Scelba"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Carlo Alberto Rosselli"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Dino Grandi"
+	picture = " "
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Benito Mussolini"
+	picture = " "
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Benito Mussolini"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Nicola Bombacci"
+	picture = " "
+	ideology = national_marxism_subtype
 }

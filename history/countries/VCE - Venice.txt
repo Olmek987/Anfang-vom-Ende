@@ -10,7 +10,7 @@ set_politics = {
 	ruling_party = liberalism
 	last_election = "1934.3.26"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	imperialism = 0
@@ -54,8 +54,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alcide De Gasperi"
-	picture = "Portrait_Venice_Alcide_De_Gasperi.dds"
+	name = "Enrico De Nicola"
+	picture = "Portrait_Venice_Enrico_De_Nicola.dds"
 	ideology = social_democracy_subtype
 }
 

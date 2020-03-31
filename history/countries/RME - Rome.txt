@@ -13,12 +13,59 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	dem_authoritarianism = 96
-	soc_dem = 4
+	dem_authoritarianism = 100
 }
 
 create_country_leader = {
-	name = "Pope"
+	name = "Pius XI"
+	picture = " "
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
+	picture = " "
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
 	picture = " "
 	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
+	picture = " "
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
+	picture = " "
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Pius XI"
+	picture = " "
+	ideology = national_marxism_subtype
 }
