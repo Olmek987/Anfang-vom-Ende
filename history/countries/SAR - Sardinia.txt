@@ -19,6 +19,55 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Sardinian Goverment"
+	name = "Egisto Perino"
+	picture = " "
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Egisto Perino"
+	picture = " "
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Egisto Perino"
+	picture = " "
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Luigi Crespellani"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Luigi Sturzo"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Emilio Lussu"
 	picture = " "
 	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Emilio Lussu"
+	picture = " "
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Antonio Gramsci"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Antonio Gramsci"
+	picture = " "
+	ideology = national_marxism_subtype
+}

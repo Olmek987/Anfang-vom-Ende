@@ -110,9 +110,6 @@ if = {
 	complete_national_focus = FRA_colonial_industry
 	complete_national_focus = FRA_colonial_military_factories
 
-	give_guarantee = POL
-	ENG = { add_to_faction = FRA }
-
 	oob = "FRA_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
@@ -205,15 +202,21 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = totalistic_communalism
 	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 69
-	fascism = 1
-	communism = 30
+	imperialism = 8
+	authoritarianism = 4
+	dem_authoritarianism = 1 
+	conservatism = 12
+	liberalism = 9
+	soc_dem = 5
+	radical_socialism = 9
+	totalistic_communalism = 49
+	national_marxism = 3
 }
 
 add_ideas = {
@@ -223,41 +226,66 @@ add_ideas = {
 	limited_conscription
 }
 
-#give_guarantee = CZE
+create_country_leader = {
+	name = "Philippe Pétain"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_France_Philippe_Petain.dds"
+	ideology = imperialism_subtype
+}
 
-#Order matters here Daladier will start as leaders because added last
+create_country_leader = {
+	name = "Napoléon"
+	picture = "Portrait_France_Philippe_Petain.dds"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Napoléon"
+	picture = "Portrait_France_Philippe_Petain.dds"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Albert Sarraut"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
 create_country_leader = {
 	name = "Édouard Daladier"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	ideology = liberalism_subtype
 	traits = {
 		stout_defender
 	}
 }
 
 create_country_leader = {
-	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
+	name = "Camille Chautemps"
 	picture = "GFX_portrait_fra_maurice_thorez"
-	expire = "1965.1.1"
-	ideology = 	stalinism
-	traits = {
-		
-	}
+	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
+	name = "Alexandre Millerand"
+	picture = "GFX_portrait_fra_maurice_thorez"
+	ideology = radical_socialism_subtype
 }
+
+create_country_leader = {
+	name = "Augustin Alfred Joseph Paul-Boncour"
+	picture = "GFX_portrait_fra_maurice_thorez"
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "André Léon Blum"
+	picture = "GFX_portrait_fra_maurice_thorez"
+	ideology = national_marxism_subtype
+}
+
+
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"

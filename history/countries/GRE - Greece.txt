@@ -58,111 +58,77 @@ if = {
 
 set_convoys = 10
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "GRE_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "GRE_1939_naval_mtg"
-		else = {
-			set_naval_oob = "GRE_1939_naval_legacy"
-		}
-	}
-	
-	set_technology = {
-		tech_support = 1		
-		tech_engineers = 1
-		early_fighter = 1
-		early_bomber = 1
-		CAS1 = 1
-		naval_bomber1 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_destroyer = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			basic_light_battery = 1
-			basic_depth_charges = 1
-		}
-	}
-}
-
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = national_marxism
 	last_election = "1935.6.9"
 	election_frequency = 12
-	elections_allowed = yes # none after offset 1
+	elections_allowed = no 
 }
 set_popularities = {
-	democratic = 10
-	fascism = 23
-	communism = 2
-	neutrality = 65
+	dem_authoritarianism = 10
+	conservatism = 8
+	liberalism = 7
+	radical_socialism = 4
+	totalistic_communalism = 6
+	national_marxism = 65
 }
 
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+	name = "Alexandros Papagos"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "George II"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "George II"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Themistoklis Sofoulis"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Sofoklis Venizelos"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Nikolaos Plastiras"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Alexandros Svolos"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Eleftherios Kyriakou Venizelos"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
@@ -170,32 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
 	picture = "Portrait_Greece_Markos_Vafiadis.dds"
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Konstantinos Tsaldaris"
-	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Georgios Kosmidis"
-	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
+	ideology = national_marxism_subtype
 }
 
 

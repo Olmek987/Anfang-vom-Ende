@@ -105,68 +105,81 @@ if = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = dem_authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 20
-	neutrality = 30
+	imperialism = 10
+	dem_authoritarianism = 47
+	conservatism = 20
+	liberalism = 16
+	radical_socialism = 4
+	totalistic_communalism = 3
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.1.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
 set_stability = 0.6
 
 create_country_leader = {
-	name = "Draza Mihailovic"
-	desc = ""
-	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+	name = "Milan Nedić"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	ideology = imperialism_subtype
 }
 
 create_country_leader = {
-	name = "Milan Nedic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	name = "Helena Petrowić-Niegosz"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
-	name = "Peter Karadordevic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Helena Petrowić-Niegosz"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = Despotism
-	traits = {
-		#
-	}
+	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
-	name = "Zivorad Jovanovic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Milan Aćimović"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Milan Stojadinović"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Milan Grol"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Milan Grol"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Vladimir Bakarić"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Józef Čižinski"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = national_marxism_subtype
 }
