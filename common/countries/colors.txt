@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 221 48 75 }
+	color_ui = rgb { 255 50 86 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 0 152 221 }
+	color_ui = rgb { 87 166 255 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -54,8 +54,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 245 191 54 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 255 215 69 }
+	color_ui = rgb { 255 221 122 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -102,12 +102,12 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 205 212 228 }
 }
 IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
+	color = rgb { 50 159 69 }
+	color_ui = rgb { 84 184 108 }
 }
 HUN = {
 	color = rgb { 249 126 98 }
