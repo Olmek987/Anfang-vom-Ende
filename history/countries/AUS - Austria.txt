@@ -15,63 +15,87 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = imperialism
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	soc_dem = 41
+	imperialism = 49
+	liberalism = 5
+	authoritarianism = 5
 }
 
 set_stability = 0.50
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
-	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
-	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+	name = "Adolf Hitler"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Portrait_Austria_Adolf_Hitler.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = imperialism_subtype
 	traits = {
-		#
+		dictator
 	}
+}
+
+create_country_leader = {
+	name = "Otto von Habsburg"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Otto von Habsburg"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Julius Raab"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Friedrich August von Hayek"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Karl Renner"
 	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
+	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
-	name = "Arthur Seyss-Inquart"
-	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	name = "Rudolf Hilferding"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Ruth Fischer"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Alfred Klahr"
-	desc = "POLITICS_ALFRED_KLAHR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+	ideology = national_marxism_subtype
 }
 
 create_corps_commander = {

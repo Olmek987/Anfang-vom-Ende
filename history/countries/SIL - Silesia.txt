@@ -18,3 +18,66 @@ set_popularities = {
 	radical_socialism = 3
 	soc_dem = 2
 }
+
+create_country_leader = {
+	name = "Hans Heinrich XV von Hochberg"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Hans Heinrich XV von Hochberg"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Hans Heinrich XV von Hochberg"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Wojciech Korfanty"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Wojciech Korfanty"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Augustyn Łukosz"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Augustyn Łukosz"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Augustyn Łukosz"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Augustyn Łukosz"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = national_marxism_subtype
+}

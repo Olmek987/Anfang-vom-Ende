@@ -22,28 +22,32 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 65
-	neutrality = 20
-	fascism = 5
-	communism = 10
+	authoritarianism = 12
+	conservatism = 45
+	liberalism = 24
+	soc_dem = 12
+	totalistic_communalism = 7
 }
 
 create_country_leader = {
-	name = "Edvard Beneš"
-	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
+	name = "Alois Neuman"
+	picture = " "
 	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Rudolf Beran"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
@@ -51,10 +55,36 @@ create_country_leader = {
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Milan Hodža"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Edvard Beneš"
+	desc = "POLITICS_EDVARD_BENES_DESC"
+	picture = "Portrait_Czech_Edvard_Benes.dds"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Vlastimil Tusar"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Milada Horáková"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
@@ -62,10 +92,14 @@ create_country_leader = {
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
 	picture = "Portrait_Czech_Klement_Gottwald.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Rudolf Slánský"
+	picture = " "
+	expire = "1965.1.1"
+	ideology = national_marxism_subtype
 }
 
 create_field_marshal = {
@@ -111,25 +145,3 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 1
 }
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-}
-	give_guarantee = YUG
-	give_guarantee = ROM
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
-
