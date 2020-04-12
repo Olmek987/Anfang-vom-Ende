@@ -1,0 +1,28 @@
+state= {
+	id=806
+	name="STATE_806"
+	manpower = 654210
+	state_category = town
+	
+	history={
+		owner = SHL
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		add_core_of = SHL
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				anti_air_building = 5
+				dockyard = 7
+				arms_factory = 4
+			}
+		}
+	}
+
+	provinces= {
+		 317 3231 11366
+ 	}
+}

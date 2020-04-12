@@ -1,0 +1,36 @@
+state= {
+	id=805
+	name="STATE_805"
+	manpower = 1532011
+	state_category = large_city
+	
+	history=
+	{
+		victory_points = {
+			9347 20
+		}
+		owner = SHL
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 5
+			9347 ={
+				naval_base = 6
+			}
+		}
+		add_core_of = SHL
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				anti_air_building = 5
+				dockyard = 7
+				arms_factory = 4
+			}
+		}
+	}
+
+	provinces= {
+		9347
+ 	}
+}

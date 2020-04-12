@@ -1,0 +1,33 @@
+
+state={
+	id=803
+	name="STATE_803"
+	manpower = 814576
+	resources={
+		steel=4 
+	}
+	
+	state_category = town
+
+	history={
+		owner = ALS
+		victory_points = { 11531 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = RHI
+	
+		1939.1.1 ={
+			buildings = {
+				radar_station = 1
+				synthetic_refinery = 3
+			}
+		}
+	}
+
+	provinces={
+		563 11531 
+	}	
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=804
+	name="STATE_804" 
+	manpower = 715600
+	
+	state_category = town
+	resources={
+		steel=16 # was: 236
+	}
+
+	history={
+		owner = ALS
+		victory_points = { 9559 10 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			3629 = {
+				bunker = 1
+
+			}
+			9559 = {
+				bunker = 2
+
+			}
+			11502 = {
+				bunker = 1
+
+			}
+			anti_air_building = 1
+			air_base = 2
+
+		}
+		add_core_of = ALS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
+		}
+	}
+
+	provinces={
+		3629 9559 11502
+	}
+}
