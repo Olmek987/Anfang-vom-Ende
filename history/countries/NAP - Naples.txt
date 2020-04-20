@@ -26,54 +26,54 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Wiktor Emanuel III"
-	picture = " "
+	picture = "Portrait_Naples_Victor_Emmanuel_III.dds"
 	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Wiktor Emanuel III"
-	picture = " "
+	picture = "Portrait_Naples_Victor_Emmanuel_III.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Wiktor Emanuel III"
-	picture = " "
+	picture = "Portrait_Naples_Victor_Emmanuel_III.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Wiktor Emanuel III"
-	picture = " "
+	picture = "Portrait_Naples_Victor_Emmanuel_III.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Ernesto Rossi"
-	picture = " "
+	picture = "Portrait_Naples_Ernesto_Rossi.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Gaetano Salvemini"
-	picture = " "
+	picture = "Portrait_Naples_Gaetano_Salvemini.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Ruggero Grieco"
-	picture = " "
+	picture = "Portrait_Naples_Ruggero_Grieco.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Ruggero Grieco"
-	picture = " "
+	picture = "Portrait_Naples_Ruggero_Grieco.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Amadeo Bordiga"
-	picture = " "
+	picture = "Portrait_Naples_Amadeo_Bordiga.dds"
 	ideology = national_marxism_subtype
 }

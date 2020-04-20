@@ -18,54 +18,54 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Pius XI"
-	picture = " "
+	picture = "Portrait_Rome_Pius_XI.dds"
 	ideology = national_marxism_subtype
 }
