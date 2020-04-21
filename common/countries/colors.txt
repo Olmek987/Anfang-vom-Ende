@@ -550,6 +550,19 @@ SAR = {
 NAP = {
 	color = rgb { 62 128 109 }
 	color_ui = rgb { 30 87 71 }
+}
+BDB = {
+	color = rgb { 61 53 52 }
+	color_ui = rgb { 120 104 102 }
+}
+PRS = {
+	color = rgb { 57 57 108 }
+	color_ui = rgb { 74 107 148 }
+}
+SIL = {
+	color = rgb { 130 126 22 }
+	color_ui = rgb { 207 200 31 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
