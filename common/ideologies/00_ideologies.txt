@@ -13,7 +13,7 @@ ideologies = {
 
 		}
 		
-		color = { 128 128 128 }
+		color = { 77 77 77 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -26,6 +26,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = no
+		can_be_boosted = no
+		can_collaborate = no
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -36,7 +38,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -58,7 +59,7 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIANISM_1"
 		}
 		
-		color = { 18 0 0 }
+		color = { 0 0 0 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -71,6 +72,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		can_be_boosted = no
+		can_collaborate = yes
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -81,7 +84,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -103,7 +105,7 @@ ideologies = {
 			"FACTION_NAME_DEM_AUTHORITARIANISM_1"
 		}
 		
-		color = { 0 0 83 }
+		color = { 0 0 80 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -116,6 +118,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		can_be_boosted = no
+		can_collaborate = yes
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -126,7 +130,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -148,7 +151,7 @@ ideologies = {
 			"FACTION_NAME_CONSERVATISM_1"
 		}
 		
-		color = { 0 95 255 }
+		color = { 0 58 158 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -161,6 +164,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		can_be_boosted = no
+		can_collaborate = yes
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -171,7 +176,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -193,7 +197,7 @@ ideologies = {
 			"FACTION_NAME_LIBERALISM_1"
 		}
 		
-		color = { 255 255 0 }
+		color = { 200 222 0 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -206,6 +210,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		can_be_boosted = no
+		can_collaborate = yes
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -216,7 +222,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -238,7 +243,7 @@ ideologies = {
 			"FACTION_NAME_SOC_DEM_1"
 		}
 		
-		color = { 255 30 120 }
+		color = { 255 73 121 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -251,6 +256,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		can_be_boosted = no
+		can_collaborate = yes
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -261,7 +268,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -283,7 +289,7 @@ ideologies = {
 			"FACTION_NAME_SOC_RAD_1"
 		}
 		
-		color = { 250 0 33 }
+		color = { 181 49 84 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -296,6 +302,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		can_be_boosted = no
+		can_collaborate = yes
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -306,7 +314,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -328,7 +335,7 @@ ideologies = {
 			"FACTION_NAME_TOTAL_COMMUN_1"
 		}
 		
-		color = { 106 0 1 }
+		color = { 121 15 15 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -341,6 +348,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = yes
+		can_be_boosted = no
+		can_collaborate = yes
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -351,7 +360,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		
@@ -386,6 +394,8 @@ ideologies = {
 		}
 		
 		can_host_government_in_exile = no
+		can_be_boosted = no
+		can_collaborate = no
 		
 		war_impact_on_world_tension = 0.4
 		faction_impact_on_world_tension = 0.2
@@ -396,7 +406,6 @@ ideologies = {
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
 			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
 			annex_cost_factor = 0.5
 		}
 		

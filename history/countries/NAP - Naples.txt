@@ -10,7 +10,7 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = authoritarianism_subtype
+	ruling_party = authoritarianism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
@@ -22,6 +22,10 @@ set_popularities = {
 	soc_dem = 3
 	totalistic_communalism = 6
 	national_marxism = 1
+}
+
+add_ideas = {
+	NAP_mafia
 }
 
 create_country_leader = {
