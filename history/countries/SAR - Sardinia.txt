@@ -20,54 +20,54 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Egisto Perino"
-	picture = " "
+	picture = "Portrait_Sardinia_Egisto_Perino.dds"
 	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Egisto Perino"
-	picture = " "
+	picture = "Portrait_Sardinia_Egisto_Perino.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Egisto Perino"
-	picture = " "
+	picture = "Portrait_Sardinia_Egisto_Perino.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Luigi Crespellani"
-	picture = " "
+	picture = "Portrait_Sardinia_Luigi_Crespellani.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Luigi Sturzo"
-	picture = " "
+	picture = "Portrait_Sardinia_Luigi_Sturzo.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Emilio Lussu"
-	picture = " "
+	picture = "Portrait_Sardinia_Emilio_Lussu.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Emilio Lussu"
-	picture = " "
+	picture = "Portrait_Sardinia_Emilio_Lussu.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Antonio Gramsci"
-	picture = " "
+	picture = "Portrait_Sardinia_Antonio_Gramsci.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Antonio Gramsci"
-	picture = " "
+	picture = "Portrait_Sardinia_Antonio_Gramsci.dds"
 	ideology = national_marxism_subtype
 }

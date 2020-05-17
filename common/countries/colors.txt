@@ -33,12 +33,12 @@ HOL = {
 	color_ui = rgb { 255 179 96 }
 }
 CZE = {	
-	color = rgb { 64 123 191 }
-	color_ui = rgb { 95 136 178 }
+	color = rgb { 32 44 68 }
+	color_ui = rgb { 62 71 90 }
 }
 POL = {
-	color = rgb { 189 60 77 }
-	color_ui = rgb { 230 61 84 }
+	color = rgb { 182 107 127 }
+	color_ui = rgb { 181 90 114 }
 }
 AUS = {
 	color = rgb { 200 201 203 }
@@ -483,8 +483,8 @@ CAT = {
 	color_ui = rgb { 214 159 166 }
 }
 VCE = {
-	color = rgb { 190 177 158 }
-	color_ui = rgb { 206 168 177 }
+	color = rgb { 51 102 0 }
+	color_ui = rgb { 70 124 16 }
 }
 RME = {
 	color = rgb { 255 255 138 }
@@ -555,16 +555,16 @@ NAP = {
 	color_ui = rgb { 30 87 71 }
 }
 BDB = {
-	color = rgb { 61 53 52 }
-	color_ui = rgb { 120 104 102 }
+	color = rgb { 102 54 6 }
+	color_ui = rgb { 119 75 31 }
 }
 PRS = {
-	color = rgb { 57 57 108 }
-	color_ui = rgb { 74 107 148 }
+	color = rgb { 107 107 107 }
+	color_ui = rgb { 88 88 88 }
 }
 SIL = {
-	color = rgb { 130 126 22 }
-	color_ui = rgb { 207 200 31 }
+	color = rgb { 155 152 77 }
+	color_ui = rgb { 134 130 23 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

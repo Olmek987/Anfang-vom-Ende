@@ -25,54 +25,54 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Cesare Mori"
-	picture = " "
+	picture = "Portrait_Sicilly_Cesare_Mori.dds"
 	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Ferdinand Pius"
-	picture = " "
+	picture = "Portrait_Sicilly_Ferdinando_III.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Ferdinand Pius"
-	picture = " "
+	picture = "Portrait_Sicilly_Ferdinando_III.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Franco Restivo"
-	picture = " "
+	picture = "Portrait_Sicilly_Francisco_Restivo.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Giuseppe Alessi"
-	picture = " "
+	picture = "Portrait_Sicilly_Giuseppe_Alessi.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Riccardo Lombardi"
-	picture = " "
+	picture = "Portrait_Sicilly_Riccardo_Lombardi.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Riccardo Lombardi"
-	picture = " "
+	picture = "Portrait_Sicilly_Riccardo_Lombardi.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Riccardo Lombardi"
-	picture = " "
+	picture = "Portrait_Sicilly_Riccardo_Lombardi.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Riccardo Lombardi"
-	picture = " "
+	picture = "Portrait_Sicilly_Riccardo_Lombardi.dds"
 	ideology = national_marxism_subtype
 }
