@@ -1,0 +1,30 @@
+state={
+	id=810
+	name="STATE_810"
+	manpower = 413126
+	
+	state_category = city
+	history={
+		owner = PRS
+		victory_points = {
+			279 1
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			dockyard = 1
+			9263 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = PRS
+		add_claim_by = POM
+		1938.3.12 = {
+			add_claim_by = BDB
+		}
+	}
+
+	provinces={
+		 279 334 389 3324 9263 13223
+	}
+}

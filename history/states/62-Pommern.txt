@@ -5,11 +5,14 @@ state={
 	manpower = 1006221
 	
 	
-	state_category = town
+	state_category = city
 
 	history={
 		victory_points = {
 			9388 1
+		}
+		victory_points = {
+			6282 5
 		}
 		owner = BDB
 		buildings = {
@@ -17,6 +20,7 @@ state={
 			fuel_silo = 1
 		}
 		add_core_of = BDB
+		add_core_of = POM
 
 		1939.1.1 = {
 			buildings = {
@@ -26,6 +30,6 @@ state={
 	}
 
 	provinces={
-		349 3207 3258 3312 3340 9388 
+		349 3258 3312 3340 6282 6309 6334 6390 9334 9388 
 	}
 }

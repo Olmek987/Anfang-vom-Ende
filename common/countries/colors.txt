@@ -566,6 +566,22 @@ SIL = {
 	color = rgb { 155 152 77 }
 	color_ui = rgb { 134 130 23 }
 }
+SAX ={
+	color = rgb { 39 97 95 }
+	color_ui = rgb { 22 69 67 }
+}
+POM ={
+	color = rgb { 138 207 142 }
+	color_ui = rgb { 78 148 82 }
+}
+BSQ ={
+	color = rgb { 129 163 83 }
+	color_ui = rgb { 82 112 42 }
+}
+GAL ={
+	color = rgb { 114 79 184 }
+	color_ui = rgb { 58 37 99 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

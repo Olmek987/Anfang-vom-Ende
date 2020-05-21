@@ -24,6 +24,7 @@ state={
 			3535 5 
 		}
 		add_core_of = BDB
+		add_core_of = SAX
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 2
@@ -34,6 +35,6 @@ state={
 	}
 
 	provinces={
-		514 573 3514 3535 6441 6559 9441 9471 9535 11481 11545 
+		514 573 3514 3535 6559 9441 9471 9535 11481 
 	}
 }

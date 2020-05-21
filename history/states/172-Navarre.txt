@@ -17,6 +17,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = SPR
+		add_core_of = BSQ
 	}
 	provinces={
 		932 3737 3931 3933 9857 13219

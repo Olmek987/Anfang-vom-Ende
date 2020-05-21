@@ -9,9 +9,9 @@ state={
 		victory_points = {
 			6375 3
 		}
-		#victory_points = {
-		#	11386 1
-		#}
+		victory_points = {
+			11386 1
+		}
 		owner = PRS
 		controller = PRS
 		
@@ -22,6 +22,6 @@ state={
 	}
 
 	provinces={
-		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+		3351 6375 9346 9372 11386 
 	}
 }

@@ -1,0 +1,20 @@
+capital = 62
+
+oob = "BDB_1936"
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = totalistic_communalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	totalistic_communalism = 95
+	radical_socialism = 3
+	soc_dem = 2
+}
