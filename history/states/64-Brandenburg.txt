@@ -5,8 +5,7 @@ state={
 	manpower = 6231029
 	buildings_max_level_factor = 1
 
-	state_category = megalopolis
-
+	state_category = metropolis
 
 	history={
 		owner = BDB
@@ -22,18 +21,9 @@ state={
 
 		}
 		add_core_of = BDB
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-				anti_air_building = 5
-				arms_factory = 10
-				industrial_complex = 7
-			}
-		}
 	}
 
 	provinces={
-		375 478 537 3207 3367 6441 6521 9428 9496 11219 11415 11444 11505 
+		375 478 537 3207 3367 6441 6521 9428 9496 11219 11444 11505 
 	}
 }

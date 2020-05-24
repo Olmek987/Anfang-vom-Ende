@@ -1,0 +1,29 @@
+
+state={
+	id=819
+	name="STATE_819"
+	manpower = 865432
+	
+	state_category = town
+
+	history={
+		owner = RGA
+
+		victory_points = {
+			11833 1 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			}
+			11833 = {
+				naval_base = 2
+			}
+		add_core_of = TUS
+	}
+
+	provinces={
+		910 3885 6875 9750 11833
+	}
+}

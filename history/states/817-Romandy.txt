@@ -1,0 +1,26 @@
+state={
+	id=817
+	name="STATE_817"
+	manpower = 965442
+	resources={
+		aluminium=4 # was: 28
+	}
+
+	state_category = city
+
+	history={
+		owner = SWI
+		victory_points = { 13124 10 }
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		6666 6683 9622 13124 
+	}
+}

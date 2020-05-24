@@ -1,0 +1,25 @@
+state={
+	id=812
+	name="STATE_812"
+	manpower = 1161101
+	resources={
+		steel=2 
+	}
+
+	state_category = city
+
+	history={
+		owner = BDB
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		
+		add_core_of = BDB
+		add_core_of = SAX
+	}
+
+	provinces={
+		3514 3572 9535 11415 
+	}
+}

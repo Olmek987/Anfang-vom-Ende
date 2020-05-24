@@ -1,4 +1,4 @@
-capital = 64
+capital = 805
 
 oob = "NSX_1936"
 
