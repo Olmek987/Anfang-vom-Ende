@@ -1,0 +1,27 @@
+
+state={
+	id=820
+	name="STATE_820"
+	manpower = 421312
+	resources={
+		steel=5
+	}
+	state_category = town
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		victory_points = {
+			9668 2
+		}
+		add_core_of = HUN
+		add_claim_by = ROM
+	}
+
+	provinces={
+		711 3689 9668 9670 
+	}
+}

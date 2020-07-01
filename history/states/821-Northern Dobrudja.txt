@@ -1,0 +1,21 @@
+state={
+	id=821
+	name="STATE_821"
+	manpower = 431321
+	
+	state_category = town
+
+	history={
+		victory_points = { 657 3 }
+		owner = BUL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		657 687 3076 9635 
+	}
+}
