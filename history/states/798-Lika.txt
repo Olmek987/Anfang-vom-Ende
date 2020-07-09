@@ -6,7 +6,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = CRO
+		owner = CRK
 		victory_points = {
 			11564 1 
 		}
@@ -15,7 +15,8 @@ state={
 			dockyard = 1
 			industrial_complex = 1
 		}
-		add_core_of = CRO
+		add_core_of = CRK
+		add_claim_by = CRO
 	}
 	provinces={
 		591 3601 11564 11901 6611

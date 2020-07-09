@@ -113,8 +113,8 @@ IRE = {
 	color_ui = rgb { 84 184 108 }
 }
 HUN = {
-	color = rgb { 189 99 77 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 61 97 66 }
+	color_ui = rgb { 91 168 101 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -581,6 +581,10 @@ BSQ ={
 GAL ={
 	color = rgb { 114 79 184 }
 	color_ui = rgb { 58 37 99 }
+}
+CRK ={
+	color = rgb { 147 217 141 }
+	color_ui = rgb { 82 209 71 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

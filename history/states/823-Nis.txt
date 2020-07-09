@@ -1,0 +1,24 @@
+state={
+	id=823
+	name="STATE_823" 
+	manpower = 754342
+	
+	state_category = large_town
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+			9602 5
+		}
+		add_core_of = SER
+
+	}
+
+	provinces={
+		630 6634 9602 9756 11887 
+	}
+}

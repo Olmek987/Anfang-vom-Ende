@@ -1,0 +1,25 @@
+state={
+	id=822
+	name="STATE_822"
+	manpower = 321412
+	
+	
+	state_category = town
+
+	history={
+		owner = CRK
+		victory_points = {
+			6983 3
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = CRK
+		add_core_of = CRO
+	}
+
+	provinces={
+		3985 6614 6619 6983 9586 9588 
+	}
+}

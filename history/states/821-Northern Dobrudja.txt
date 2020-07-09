@@ -7,12 +7,12 @@ state={
 
 	history={
 		victory_points = { 657 3 }
-		owner = BUL
+		owner = ROM
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 		}
-		add_core_of = BUL
+		add_core_of = ROM
 	}
 
 	provinces={

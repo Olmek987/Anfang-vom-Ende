@@ -1,0 +1,21 @@
+capital = 109
+
+oob = "CRK_1936"
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = dem_authoritarianism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 7
+	dem_authoritarianism = 90
+	conservatism = 2
+	soc_dem = 1
+}
