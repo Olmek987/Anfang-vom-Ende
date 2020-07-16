@@ -1,0 +1,25 @@
+
+state={
+	id=788
+	name="STATE_788"
+
+	history={
+		owner = CAT
+		add_core_of = CAT
+		victory_points = {
+			11779 1
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		3898 6915 9824 9853 11779 
+	}
+	state_category = town
+	manpower=345502
+	buildings_max_level_factor=1.000
+}
