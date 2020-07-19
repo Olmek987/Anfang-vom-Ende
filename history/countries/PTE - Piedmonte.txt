@@ -13,11 +13,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	dem_authoritarianism = 62
 	conservatism = 5
 	liberalism = 6
 	soc_dem = 2
-	totalistic_communalism = 25
+	radical_socialism = 40
+	totalistic_communalism = 47
 }
 
 create_country_leader = {
@@ -40,36 +40,36 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Luigi Einaudi"
-	picture = " "
+	picture = "Portrait_Piedmonte_Luigi_Einaudi.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Ferruccio Parri"
-	picture = " "
+	picture = "Portrait_Piedmonte_Ferruccio_Parri.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Ferruccio Parri"
-	picture = " "
+	picture = "Portrait_Piedmonte_Ferruccio_Parri.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Palmiro Togliatti"
-	picture = " "
+	picture = "Portrait_Piedmonte_Palmiro_Togliatti.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Luigi Longo"
-	picture = " "
+	picture = "Portrait_Piedmonte_Luigi_Longo.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Angelo Tasca"
-	picture = " "
+	picture = "Portrait_Piedmonte_Angelo_Tasca.dds"
 	ideology = national_marxism_subtype
 }

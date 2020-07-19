@@ -14,65 +14,65 @@ set_politics = {
 }
 set_popularities = {
 	imperialism = 4
-	authoritarianism = 57
-	dem_authoritarianism = 15
+	authoritarianism = 40
+	dem_authoritarianism = 24
 	conservatism = 8
-	liberalism = 2
+	liberalism = 4
 	soc_dem = 7
 	radical_socialism = 5
-	national_marxism = 2
+	national_marxism = 8
 }
 
 create_country_leader = {
 	name = "Pietro Badoglio"
-	picture = " "
+	picture = "Portrait_Romagna_Pietro_Badoglio.dds"
 	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Umberto II"
-	picture = " "
+	picture = "Portrait_Romagna_Umberto_II.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Umberto II"
-	picture = " "
+	picture = "Portrait_Romagna_Umberto_II.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Mario Scelba"
-	picture = " "
+	picture = "Portrait_Romagna_Mario_Scelba.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Carlo Alberto Rosselli"
-	picture = " "
+	picture = "Portrait_Romagna_Carlo_Rosselli.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Dino Grandi"
-	picture = " "
+	picture = "Portrait_Romagna_Dino_Grandi.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Benito Mussolini"
-	picture = " "
+	picture = "Portrait_Romagna_Benito_Mussolini.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Benito Mussolini"
-	picture = " "
+	picture = "Portrait_Romagna_Benito_Mussolini.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Nicola Bombacci"
-	picture = " "
+	picture = "Portrait_Romagna_Nicola_Bombacci.dds"
 	ideology = national_marxism_subtype
 }

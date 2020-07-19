@@ -272,4 +272,23 @@
  IRE_national_marxism_party:0 "Rh"
  IRE_national_marxism_party_long:0 "Réabhlóid na hÉireann"
  
+ AUS_imperialism_party:0 "NSAPÖ"
+ AUS_imperialism_party_long:0 "Nationalsozialistische Arbeiterpartei Österreichs"
+ AUS_authoritarianism_party:0 "ÖAP"
+ AUS_authoritarianism_party_long:0 "Österreichische Autoritäre Partei"
+ AUS_dem_authoritarianism_party:0 "MPÖ"
+ AUS_dem_authoritarianism_party_long:0 "Monarchistische Partei Österreichs"
+ AUS_conservatism_party:0 "ÖVP"
+ AUS_conservatism_party_long:0 "Österreichische Volkspartei"
+ AUS_liberalism_party:0 "BÖL"
+ AUS_liberalism_party_long:0 "Bündnis Österreichischer Liberaler"
+ AUS_soc_dem_party:0 "SPÖ"
+ AUS_soc_dem_party_long:0 "Sozialdemokratische Partei Österreichs"
+ AUS_radical_socialism_party:0 "RSPÖ"
+ AUS_radical_socialism_party_long:0 "Radikale Sozialdemokratische Partei Österreichs"
+ AUS_totalistic_communalism_party:0 "KPÖ"
+ AUS_totalistic_communalism_party_long:0 "Kommunistische Partei Österreichs"
+ AUS_national_marxism_party:0 "ÖRV"
+ AUS_national_marxism_party_long:0 "Österreichs Radikale Volkspartei"
+ 
  

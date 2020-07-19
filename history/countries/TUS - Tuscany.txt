@@ -20,54 +20,54 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Rodolfo Neghelli de Graziani"
-	picture = " "
+	picture = "Portrait_Tuscany_Rodolfo_Graziani.dds"
 	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Rodolfo Neghelli de Graziani"
-	picture = " "
+	picture = "Portrait_Tuscany_Rodolfo_Graziani.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Rodolfo Neghelli de Graziani"
-	picture = " "
+	picture = "Portrait_Tuscany_Rodolfo_Graziani.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Giovanni Porzio"
-	picture = " "
+	picture = "Portrait_Tuscany_Giovanni_Porzio.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
-	name = "Enrico De Nicola"
-	picture = " "
+	name = "Randolfo Pacciardi"
+	picture = "Portrait_Tuscany_Randolfo_Pacciardi.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Randolfo Pacciardi"
-	picture = " "
+	picture = "Portrait_Tuscany_Randolfo_Pacciardi.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Gaetano Martino"
-	picture = " "
+	picture = "Portrait_Tuscany_Gaetano_Martino.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Gaetano Martino"
-	picture = " "
+	picture = "Portrait_Tuscany_Gaetano_Martino.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Giuseppe Saragat"
-	picture = " "
+	picture = "Portrait_Tuscany_Giuseppe_Saragat.dds"
 	ideology = national_marxism_subtype
 }
