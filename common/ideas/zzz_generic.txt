@@ -105,7 +105,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = imperialism
+				has_government = national_marxism
 			}
 
 			removal_cost = -1
@@ -114,24 +115,7 @@ ideas = {
 
 			
 			modifier = {
-				fascism_drift = 0.1
-			}
-		}
-		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-
-			
-			modifier = {
-				navy_fuel_consumption_factor = -1
-				air_fuel_consumption_factor = -1
-				#spotting_chance = 5
+				imperialism_drift = 0.1
 			}
 		}
 
@@ -142,7 +126,11 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				OR = {
+					has_government = radical_socialism
+					has_government = totalistic_communalism
+					has_government = national_marxism
+				}
 			}
 
 			removal_cost = -1
@@ -162,7 +150,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = imperialism
 			}
 
 			removal_cost = -1
@@ -183,7 +171,11 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				OR = {
+					has_government = radical_socialism
+					has_government = totalistic_communalism
+					has_government = national_marxism
+				}
 			}
 
 			removal_cost = -1
@@ -203,7 +195,11 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				OR = {
+					has_government = conservatism
+					has_government = liberalism
+					has_government = soc_dem
+				}
 			}
 
 			removal_cost = -1
@@ -215,6 +211,7 @@ ideas = {
 				democratic_acceptance = 85
 			}
 		}
+		
 		neutrality_influence = {
 			allowed = {
 				always = no
@@ -231,38 +228,6 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.1
 				neutrality_acceptance = 85
-			}
-		}
-		
-		soviet_german_friendship = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				OR = {
-					AND = {
-						tag = GER
-						has_government = fascism
-						SOV = {
-							has_government = communism
-						}
-					}
-					AND = {
-						tag = SOV
-						has_government = communism
-						GER = {
-							has_government = fascism
-						}
-					}
-				}
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				communism_acceptance = 100
-				fascism_acceptance = 100
 			}
 		}
 		
