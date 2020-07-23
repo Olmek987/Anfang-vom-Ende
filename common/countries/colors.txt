@@ -586,6 +586,14 @@ CRK ={
 	color = rgb { 147 217 141 }
 	color_ui = rgb { 82 209 71 }
 }
+FLA ={
+	color = rgb { 222 156 58 }
+	color_ui = rgb { 110 73 19 }
+}
+WAL ={
+	color = rgb { 123 176 174 }
+	color_ui = rgb { 63 117 115 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

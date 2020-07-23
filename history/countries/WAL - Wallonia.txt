@@ -1,0 +1,19 @@
+capital = 34
+
+oob = "WAL_1936"
+
+set_research_slots = 2
+
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = dem_authoritarianism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarianism = 5
+	dem_authoritarianism = 95
+}
