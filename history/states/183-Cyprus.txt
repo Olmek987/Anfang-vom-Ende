@@ -10,7 +10,7 @@ state= {
 
 	history=
 	{
-		owner = ENG
+		owner = CYP
 		add_core_of = CYP
 		victory_points = {
 			11984 5
@@ -27,5 +27,5 @@ state= {
 		}
 
 	}
-	provinces= { 7193 11984 }
+	provinces= { 7193 11984 13237 }
 }

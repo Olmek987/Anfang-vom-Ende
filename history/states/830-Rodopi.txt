@@ -1,0 +1,22 @@
+
+state={
+	id=830
+	name="STATE_830"
+	manpower = 113214
+	
+	state_category = rural
+	history={
+		victory_points = {
+			11905 2
+		}
+		owner = BUL
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		 11774 11905 13232
+	}
+}
