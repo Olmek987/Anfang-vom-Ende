@@ -7452,7 +7452,7 @@
 7451;91;0;226;land;true;plains;3
 7452;91;0;236;sea;true;ocean;0
 7453;91;3;41;land;true;forest;4
-7454;91;3;86;land;false;mountain;7
+7454;91;3;86;land;true;mountain;7
 7455;91;3;191;land;false;mountain;6
 7456;91;4;232;sea;true;ocean;0
 7457;91;6;6;land;true;forest;4
@@ -13236,3 +13236,6 @@
 13235;34;46;143;land;true;mountain;1
 13236;22;181;14;land;true;hills;1
 13237;4;250;105;land;false;hills;1
+13238;80;222;72;land;false;plains;7
+13239;8;10;180;land;false;hills;7
+13240;85;158;159;land;false;desert;7

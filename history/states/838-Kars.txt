@@ -1,0 +1,25 @@
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = ARM
+		victory_points = {
+			13238 1 
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = ARM
+		add_claim_by = TUR
+
+	}
+
+	provinces={
+		3564 13238 13239
+	}
+	manpower=87531
+	buildings_max_level_factor=1.000
+	state_category=town
+}

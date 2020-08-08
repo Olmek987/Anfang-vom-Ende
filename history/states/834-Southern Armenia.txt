@@ -1,0 +1,25 @@
+state={
+	id=834
+	name="STATE_834"
+
+	history={
+		owner = ARM
+		victory_points = {
+			4660 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		add_core_of = ARM
+
+	}
+
+	provinces={
+		1467 4660 6642 6997 9715 
+	}
+	manpower=342321
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
