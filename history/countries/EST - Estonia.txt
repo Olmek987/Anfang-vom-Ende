@@ -35,115 +35,80 @@ if = {
 
 set_convoys = 5
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "EST_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "EST_1939_naval_mtg"
-		else = {
-			set_naval_oob = "EST_1939_naval_legacy"
-		}
-	}
-	set_technology = {
-		tech_recon = 1
-		tech_support = 1		
-		tech_engineers = 1
-		fighter1 = 1
-		early_bomber = 1
-		CAS1 = 1
-		naval_bomber1 = 1
-		interwar_artillery = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_submarine = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			basic_ship_hull_submarine = 1
-		}
-	}
-}
-
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = soc_dem
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 20
-	fascism = 15
-	communism = 5
-	neutrality = 60
+	imperialism = 13
+	authoritarianism = 3
+	dem_authoritarianism = 5
+	conservatism = 2
+	liberalism = 21
+	soc_dem = 37
+	radical_socialism = 11
+	totalistic_communalism = 5
+	national_marxism = 3
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1938.2.25"
-		election_frequency = 48
-		elections_allowed = no
-	}
+create_country_leader = {
+	name = "Johan Laidoner"
+	picture = " "
+	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Konstantin Päts"
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
 	picture = "GFX_Portrait_estonia_konstantin_pats"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
+	ideology = authoritarianism_subtype
 }
 
+create_country_leader = {
+	name = "Konstantin Päts"
+	desc = "POLITICS_KONSTANTIN_PATS_DESC"
+	picture = "GFX_Portrait_estonia_konstantin_pats"
+	ideology = democratic_authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Artur Sirk"
+	picture = " "
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "Jaan Tõnisson"
+	picture = " "
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Jaan Tõnisson"
+	picture = " "
+	ideology = social_democracy_subtype
+}
+
+create_country_leader = {
+	name = "Hans Pöögelmann"
+	picture = " "
+	ideology = radical_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Viktor Kingissepp"
+	picture = " "
+	ideology = totalistic_communalism_subtype
+}
+
+create_country_leader = {
+	name = "Jaan Anvelt"
+	picture = " "
+	ideology = national_marxism_subtype
+}
 
 ### VARIANTS ###
 # 1939 Start #

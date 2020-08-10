@@ -38,67 +38,58 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Döme Sztójay"
-	picture = " "
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Dome_Sztojay.dds"
 	ideology = imperialism_subtype
 }
 
 create_country_leader = {
 	name = "Karl I"
-	picture = " "
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Karl_I.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Karl I"
-	picture = " "
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Karl_I.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Sándor Simonyi-Semadam"
-	picture = " "
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Sandor_Simonyi-Semadam.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Lajos Dinnyés"
-	picture = " "
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Lajos_Dinnyes.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Mihály Károlyi"
-	picture = " "
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Mihaly_Karolyi.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Árpád Szakasits"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Arpad_Szakasits.dds"
 	ideology = radical_socialism_subtype
 }
 
 create_country_leader = {
 	name = "Béla Kun"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Bela_Kun.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Mátyás Rákosi"
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
-	expire = "1965.1.1"
+	picture = "Portrait_Hungary_Matyas_Rakosi.dds"
 	ideology = national_marxism_subtype
 }
 

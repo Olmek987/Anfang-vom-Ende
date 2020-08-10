@@ -16,53 +16,59 @@ set_politics = {
 }
 
 set_popularities = {
-	conservatism = 79
-	liberalism = 21
+	imperialism = 5
+	authoritarianism = 10
+	conservatism = 41
+	liberalism = 12
+	soc_dem = 3
+	radical_socialism = 8
+	totalistic_communalism = 13
+	national_marxism = 8
 }
 
 set_convoys = 5
 
 create_country_leader = {
 	name = "Tefik Selim Mborja"
-	picture = " "
+	picture = "Portrait_Albania_Tefik_Mborja.dds"
+	ideology = imperialism_subtype
+}
+
+create_country_leader = {
+	name = "Zog I"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Albania_Zog_I_of_Albania.dds"
 	ideology = authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Zog I"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
-	ideology = authoritarianism_subtype
-}
-
-create_country_leader = {
-	name = "Zog I"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
+	picture = "Portrait_Albania_Zog_I_of_Albania.dds"
 	ideology = democratic_authoritarianism_subtype
 }
 
 create_country_leader = {
 	name = "Mustafa Merlika-Kruja"
-	picture = " "
+	picture = "Portrait_Albania_Mustafa_Merlika_Kruja.dds"
 	ideology = conservatism_subtype
 }
 
 create_country_leader = {
 	name = "Mehdi Frashëri"
-	picture = " "
+	picture = "Portrait_Albania_Mehdi_Frasheri.dds"
 	ideology = liberalism_subtype
 }
 
 create_country_leader = {
 	name = "Koçi Xoxe"
-	picture = " "
+	picture = "Portrait_Albania_Koci_Xoxe.dds"
 	ideology = social_democracy_subtype
 }
 
 create_country_leader = {
 	name = "Enver Hoxha"
-	picture = " "
+	picture = "Portrait_Albania_Enver_Hoxha.dds"
 	ideology = radical_socialism_subtype
 	traits = {
 		staunch_stalinist
@@ -71,13 +77,13 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ali Kelmendi"
-	picture = " "
+	picture = "Portrait_Albania_Ali_Kelmendi.dds"
 	ideology = totalistic_communalism_subtype
 }
 
 create_country_leader = {
 	name = "Theofan Stilian Noli"
-	picture = " "
+	picture = "Portrait_Albania_Fan_S._Noli.dds"
 	ideology = national_marxism_subtype
 }
 

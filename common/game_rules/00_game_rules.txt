@@ -299,7 +299,7 @@ allow_coups = {
 		desc = "RULE_ALLOW_COUPS_AI_ONLY_DESC"
 		allow_achievements = yes
 	}
-	option = {
+	default = {
 		name = BLOCKED
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_COUPS_BLOCKED_DESC"

@@ -37,7 +37,7 @@ CZE = {
 	color_ui = rgb { 62 71 90 }
 }
 POL = {
-	color = rgb { 182 107 127 }
+	color = rgb { 189 97 156 }
 	color_ui = rgb { 181 90 114 }
 }
 AUS = {
@@ -45,7 +45,7 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 219 219 119 }
+	color = rgb { 177 0 43 }
 	color_ui = rgb { 255 255 155 }
 }
 EST = {
@@ -377,17 +377,17 @@ UKR = {
 }
 
 AZR = {
-	color = rgb { 69  151  49 }
+	color = rgb { 0  128  0 }
 	color_ui = rgb { 69  151  49 }
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
+	color = rgb { 187  128 150 }
 	color_ui = rgb { 255  204  204 }
 }
 
 ARM = {
-	color = rgb { 176  102  180 }
+	color = rgb { 137  102  180 }
 	color_ui = rgb { 176  102  180 }
 }
 
