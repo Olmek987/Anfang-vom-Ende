@@ -1,0 +1,27 @@
+
+state={
+	id=840
+	name="STATE_840"
+	manpower = 433112
+	
+	state_category = rural
+	
+	resources={
+		oil=19 # was: 26
+	}
+
+	history={
+		owner = TER
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			683 3
+		}
+		add_core_of = TER
+	}
+
+	provinces={
+		683 700 712 728 6702 6730 6748 11632 11690 
+	}
+}

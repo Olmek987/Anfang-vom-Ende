@@ -594,6 +594,22 @@ WAL ={
 	color = rgb { 123 176 174 }
 	color_ui = rgb { 63 117 115 }
 }
+TER ={
+	color = rgb { 189 111 47 }
+	color_ui = rgb { 145 73 13 }
+}
+KUB ={
+	color = rgb { 107 134 181 }
+	color_ui = rgb { 32 70 135 }
+}
+DON ={
+	color = rgb { 171 191 90 }
+	color_ui = rgb { 111 135 11 }
+}
+CRM ={
+	color = rgb { 147 161 145 }
+	color_ui = rgb { 73 82 72 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

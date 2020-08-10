@@ -1,0 +1,27 @@
+
+state={
+	id=841
+	name="STATE_841"
+	manpower = 942132
+	
+	state_category = large_town
+	
+	resources={
+		oil=19 # was: 26
+	}
+
+	history={
+		owner = TER
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			3672 3
+		}
+		add_core_of = TER
+	}
+
+	provinces={
+		666 670 1455 3667 3672 6689 
+	}
+}
