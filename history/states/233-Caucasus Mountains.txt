@@ -13,17 +13,14 @@ state={
 		}
 		add_core_of = KUB
 		victory_points = {
-			9628 3
-		}
-		victory_points = {
 			9663 1
 		}
 	}
 
 	provinces={
-		685 3698 6674 6692 6721 9628 9632 9647 9649 9663 9674 11609 11614 11664 
+		3698 6692 6721 9649 9663 9674 11664 
 	}
-	manpower=1012312
+	manpower=457721
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
