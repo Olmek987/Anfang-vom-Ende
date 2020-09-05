@@ -1,0 +1,23 @@
+
+state={
+	id=844
+	name="STATE_844"
+	manpower = 231552
+	
+	state_category = town
+
+	history={
+		owner = KUB
+		victory_points = {
+			498 7
+		}
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = KUB
+	}
+
+	provinces={
+		498 6503 6527 9442 9459 9474 11447   
+	}
+}

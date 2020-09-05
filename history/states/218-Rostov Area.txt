@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = KUB
+		owner = DON
 		victory_points = {
 			9417 15 
 		}
@@ -21,7 +21,6 @@ state={
 			}
 		}
 		add_core_of = DON
-		add_claim_by = KUB
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
@@ -30,6 +29,6 @@ state={
 	}
 
 	provinces={
-		585 6445 9417 9430 11418 11434 11450 11559 
+		484 449 3478 9417 9430 11418 11434 11450 
 	}
 }

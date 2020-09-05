@@ -1,0 +1,26 @@
+state={
+	id=843
+	name="STATE_843"
+	resources={
+		chromium=35 # was: 46.000
+	}
+
+	history={
+		owner = KUB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KUB
+		victory_points = {
+			9628 3
+		}
+	}
+
+	provinces={
+		 685 6674 9628 9632 9647 11609 11614  
+	}
+	manpower=676532
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
