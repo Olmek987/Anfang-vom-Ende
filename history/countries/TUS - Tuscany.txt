@@ -71,3 +71,25 @@ create_country_leader = {
 	picture = "Portrait_Tuscany_Giuseppe_Saragat.dds"
 	ideology = national_marxism_subtype
 }
+
+create_field_marshal = {
+	name = "Rodolfo Neghelli de Graziani"
+	picture = "Portrait_Tuscany_Rodolfo_Graziani.dds"
+	traits = { offensive_doctrine politically_connected trait_cautious }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Inigo Campioni"
+		picture = "Portrait_Italy_Inigo_Campioni.dds"
+	traits = { battleship_adherent superior_tactician spotter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}

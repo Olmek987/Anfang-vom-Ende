@@ -76,3 +76,36 @@ create_country_leader = {
 	picture = "Portrait_Venice_Giacomo_Matteotti.dds"
 	ideology = national_marxism_subtype
 }
+
+create_field_marshal = {
+	name = "Emilio De Bono"
+	picture = "Portrait_Venice_Emilio_De_Bono.dds"
+	traits = { defensive_doctrine old_guard politically_connected trait_cautious }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Alberto Da Zara"
+		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
+	traits = { gentlemanly superior_tactician }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Giuseppe Fioravanzo"
+		picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+	traits = { aviation_enthusiast blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 2
+}

@@ -73,3 +73,26 @@ create_country_leader = {
 	picture = "Portrait_Piedmonte_Angelo_Tasca.dds"
 	ideology = national_marxism_subtype
 }
+
+create_corps_commander = {
+	name = "Ugo Cavallero"
+	picture = "Portrait_Italy_Ugo_Cavallero.dds"
+	traits = {  old_guard trait_cautious career_officer }
+	skill = 2
+	rank = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Angelo Iachino"
+		picture = "Portrait_Italy_Angelo_Iachino.dds"
+	traits = { bold navy_career_officer superior_tactician spotter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
