@@ -12,6 +12,10 @@ replace_path={
 "history/countries" 
 "common/countries"
 "common/country_tags"
+"common/decisions"
+"common/ideas"
+"common/national_focus"
 "history/states"
+"events"
 }
 name="Anfang vom Ende"
