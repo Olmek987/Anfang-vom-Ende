@@ -1,0 +1,19 @@
+capital = 846
+
+oob = "OLD_1936"
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = soc_dem
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	soc_dem = 80
+	radical_socialism = 20
+}

@@ -530,7 +530,7 @@ RHI = {
 	color = rgb { 82 80 47 }
 	color_ui = rgb { 84 104 90 }
 }
-NSX = {
+HAN = {
 	color = rgb { 4 120 116 }
 	color_ui = rgb { 55 101 88 }
 }
@@ -609,6 +609,14 @@ DON ={
 CRM ={
 	color = rgb { 147 161 145 }
 	color_ui = rgb { 73 82 72 }
+}
+OLD ={
+	color = rgb { 209 50 50 }
+	color_ui = rgb { 115 32 23 }
+}
+THU ={
+	color = rgb { 214 189 186 }
+	color_ui = rgb { 122 108 106 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
